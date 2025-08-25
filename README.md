@@ -39,25 +39,16 @@
 
 먼저 알림을 받을 Discord 서버와 채널의 Webhook URL이 필요합니다.
 
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-Discord Webhook URL 만드는 방법 (클릭하여 펼치기)
-```{=html}
-</summary>
-```
+
+Discord Webhook URL 만드는 방법
+
 1.  알림을 받고 싶은 서버 채널의 **채널 편집** 아이콘(⚙️)을 클릭합니다.
 2.  왼쪽 메뉴에서 **연동** 탭으로 이동합니다.
 3.  **웹후크 만들기(Create Webhook)** 버튼을 클릭합니다.
 4.  생성된 웹후크의 이름을 (예: R Bot) 설정하고 **웹후크 URL 복사**
     버튼을 누릅니다. 이 URL을 잘 보관하세요.
 
-```{=html}
-</details>
-```
+
 
 ------------------------------------------------------------------------
 
@@ -133,12 +124,7 @@ send_alarm(TRUE, msg = "15초 시뮬레이션 작업 완료!")
 
 (스크립트 실행 시 위 패키지들이 자동으로 설치됩니다.)
 
-`<br>`{=html}`<br>`{=html}
 
-```{=html}
-<hr>
-```
-`<br>`{=html}`<br>`{=html}
 
 # R Script Discord Notifier
 
@@ -180,16 +166,9 @@ This tool consists of two R files:
 First, you need a Webhook URL from the Discord server and channel where
 you want to receive notifications.
 
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-How to create a Discord Webhook URL (Click to expand)
-```{=html}
-</summary>
-```
+
+How to create a Discord Webhook URL 
+
 1.  Click the gear icon (⚙️) to **Edit Channel** for the desired
     channel.
 2.  Go to the **Integrations** tab in the left menu.
@@ -197,9 +176,7 @@ How to create a Discord Webhook URL (Click to expand)
 4.  Customize the name of the webhook (e.g., R Bot) and click **Copy
     Webhook URL**. Keep this URL handy.
 
-```{=html}
-</details>
-```
+
 
 ------------------------------------------------------------------------
 
